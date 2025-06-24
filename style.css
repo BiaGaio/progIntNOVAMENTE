@@ -1,0 +1,97 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.header {
+    background: linear-gradient(135deg, #0066cc, #004080);
+    color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header .lead {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.search-box {
+    margin-bottom: 30px;
+}
+
+.search-box .input-group {
+    margin-bottom: 10px;
+}
+
+.search-box .form-control {
+    padding: 12px;
+}
+
+.search-box .btn {
+    padding: 12px 24px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    min-height: 20px;
+    margin-top: 5px;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.spinner {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 10px;
+}
+
+.result-card {
+    display: none;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0066cc;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.address-info p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.address-info strong {
+    color: #555;
+    min-width: 120px;
+    display: inline-block;
+}   
